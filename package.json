@@ -10,6 +10,7 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.53",
     "@types/react-dom": "^16.9.8",
+    "csstype": "^3.0.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "3.4.3",
@@ -47,9 +48,18 @@
     "@storybook/addon-actions": "^6.1.2",
     "@storybook/addon-essentials": "^6.1.2",
     "@storybook/addon-links": "^6.1.2",
+    "@storybook/addon-storyshots": "^6.1.2",
     "@storybook/node-logger": "^6.1.2",
     "@storybook/preset-create-react-app": "^3.1.5",
     "@storybook/react": "^6.1.2",
-    "babel-loader": "8.1.0"
+    "babel-loader": "8.1.0",
+    "react-test-renderer": "^17.0.1"
+  },
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react-typescript@3.1.61"
+    },
+    "componentsDefaultDirectory": "components/{name}",
+    "packageManager": "npm"
   }
 }
