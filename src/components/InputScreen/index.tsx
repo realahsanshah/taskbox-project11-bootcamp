@@ -1,6 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { connect } from 'react-redux';
 import { useSelector } from 'react-redux';
 import TaskList from '../TaskList';
 import { TaskInterface } from '../Task';
