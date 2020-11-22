@@ -1,13 +1,15 @@
 import * as React from 'react';
-import './style.css';
+import '../../index.css';
+
+export interface TaskInterface{
+  id:string,
+  title:string,
+  state:any,
+  updatedAt?:Date
+}
 
 export interface TaskProps {
-    task:{
-        id:string,
-        title:string,
-        state:any,
-        updatedAt?:Date
-    },
+    task:TaskInterface,
     onArchiveTask?:any,
     onPinTask?:any
 }

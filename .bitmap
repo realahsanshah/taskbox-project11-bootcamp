@@ -7,11 +7,6 @@
                 "relativePath": "src/components/Task/index.tsx",
                 "test": false,
                 "name": "index.tsx"
-            },
-            {
-                "relativePath": "src/components/Task/style.css",
-                "test": false,
-                "name": "style.css"
             }
         ],
         "mainFile": "src/components/Task/index.tsx",
