@@ -18,11 +18,9 @@ const tasks:TaskInterface[]=[  { ...TaskStories.Default.arguments.task, id: '1',
 { ...TaskStories.Default.arguments.task, id: '6', title: 'Task 6' },
 ]
 
-export const Default=()=>{
-    return(
-        <TaskList tasks={tasks} loading={false}/>
-    );
-};
+export function Default(){
+    return(<TaskList tasks={tasks} loading={false}/>);
+}
 
 
 export const WithPinnedTasks = ()=>{

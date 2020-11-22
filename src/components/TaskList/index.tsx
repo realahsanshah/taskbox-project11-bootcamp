@@ -66,4 +66,4 @@ const TaskList: React.SFC<TaskListProps> = ({ loading, tasks, onPinTask, onArchi
     );
 }
 
-export default TaskList;
+export default TaskList
