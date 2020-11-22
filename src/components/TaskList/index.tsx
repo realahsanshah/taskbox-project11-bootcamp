@@ -4,6 +4,7 @@ import '../../index.css';
 
 
 
+
 export interface TaskListProps {
     loading: boolean,
     tasks: TaskInterface[],
@@ -16,6 +17,8 @@ const TaskList: React.SFC<TaskListProps> = ({ loading, tasks, onPinTask, onArchi
         onPinTask,
         onArchiveTask
     }
+
+    
 
     const LoadingRow = (
         <div className="loading-item">
